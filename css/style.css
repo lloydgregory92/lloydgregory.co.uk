@@ -6798,7 +6798,7 @@ header .social a:hover {
 }
 @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (-min-device-pixel-ratio: 2) {
   header .social a {
-    background: url(../images/social-sprite@2x.png) no-repeat;
+    background: url(../images/social-sprite.png) no-repeat;
     -webkit-background-size: 76px 26px;
     background-size: 76px 26px;
   }
@@ -6811,6 +6811,9 @@ header .social a.twitter {
 }
 header .social a.instagram {
   background-position: -50px 0px;
+}
+header .social a.linkedin {
+  background-position: -75px 0px;
 }
 
 .instagram-wrap {
